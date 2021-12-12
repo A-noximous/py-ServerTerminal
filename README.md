@@ -15,7 +15,7 @@ Python installation differs based on your Linux distribution.
 Both Urwid and Pexpect can be installed by running `pip3 install requirements.txt`.
 
 ## Running
-Download both `terminal.py` and `reqrequirements.txt`, then: <br />
+Download both `terminal.py` and `reqrequirements.txt`(from `/terminal`), then: <br />
 To run the server(the first time using the script), simply run `python3 terminal.py <your server start command>` in the directory where you have the `terminal.py` file
 After that, you can just run `python 3 terminal.py` and your server will start, your command is stored in the `terminal.conf` file.
 Your server start command should be something like `java -Xmx10G -jar ... server.jar`
