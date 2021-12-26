@@ -214,7 +214,6 @@ def read(child):
                 else:
                     console.output(out)
         except pexpect.exceptions.TIMEOUT:
-            console.output("Timeout Reached!", "CLIENT")
             pass
 
 
